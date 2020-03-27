@@ -7,7 +7,9 @@
     "serve": "nodemon server.js",
     "start": "node server.js",
     "seed": "node seeder.js --data ./data.json",
-    "dev": "concurrently \"npm start --prefix client\" \"npm run serve\""
+    "dev": "concurrently \"npm start --prefix client\" \"npm run serve\"",
+        "res": "concurrently \"npm install --prefix client\" \"npm install\""
+
   },
   "author": "Thanus",
   "license": "MIT",
