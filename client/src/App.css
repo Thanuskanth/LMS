@@ -1,0 +1,93 @@
+.sidenav {
+    width: 20%;
+    float: left;
+    height: 90vh;
+    background-color:#f8f9fb;
+    position: fixed;
+    margin-top: 72px;
+}
+.navlink{
+    color: gray;
+    text-decoration: none;
+    font-size: larger;
+
+}
+.navlink:hover{
+    color: gray;
+    text-decoration: none;
+}
+.profileheader{
+    float: right;
+}
+.App {
+    font-family: 'Playfair Display', serif;
+}
+.modeltitle{
+    font-family: 'Playfair Display', serif;
+    margin-left: 40%;
+    
+}
+.modelbody{
+margin:5% 10%;
+}
+
+.addRole{
+    display: inline;
+    float: right;
+}
+.addRoletitle{
+    display: inline;
+}
+.formtitle {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.sidenavcontant {
+    float: right;
+    height: 90vh;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-top: 10%;
+    /* position: fixed; */
+}
+.editbtn{
+    display: inline;
+}
+.deletebtn{
+    display: inline;
+    float: right;
+}
+.navs{
+    position: fixed;
+    width: 100%;
+    
+}
+.sidenav ul {
+    width: 100%;
+}
+.sbutton{
+    margin-left:26%;
+    margin-top: 5%;
+    font-family: 'Playfair Display', serif;
+}
+.sidenav ul li {
+    margin-bottom: 10%;
+    padding: 5%;
+    display: block;
+    width: 100%;
+    list-style-type: none;
+}
+.navbrand{
+    font-family: 'Playfair Display', serif ;
+    font-weight: 200;
+    color: white;
+}
+.navbarheight {
+    height: 10vh;
+}
+
+.navtitle {
+    justify-content: center;
+}

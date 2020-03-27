@@ -1,0 +1,20 @@
+{
+    "role": {
+        "_model": "Roles",
+        "role1": {
+            "role": "Admin"
+        },
+        "role2": {
+            "role": "HR"
+        }
+    },
+    "users": {
+        "_model": "Users",
+        "user": {
+            "username": "Admin",
+            "email": "admin@gmail.com",
+            "password": "$2a$10$fTL9Knw0XZzpB.PyLYNDTOlGKo4WDY.Xxf88KZJISkvtT9IvlRGoC",
+            "role": "->role.role1._id"
+        }
+    }
+}
